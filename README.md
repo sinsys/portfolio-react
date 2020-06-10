@@ -1,11 +1,15 @@
 # Nicholas Hazel - Portfolio
 
 ## Table of contents
-- [Nicholas Hazel - Portfolio](#nicholas-hazel---portfolio)
   - [Table of contents](#table-of-contents)
   - [Description](#description)
   - [Technologies](#technologies)
   - [Planning](#planning)
+    - [Mockups](#Mockups)
+      - [Visual Mockups](#Visual-Mockups)
+      - [HTML Mockups](#HTML-Mockups)
+    - [Gantt](#Gantt)
+    - [Kanban](#Kanban)
   - [Available Scripts](#available-scripts)
 
 ## Description
