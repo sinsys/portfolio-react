@@ -6,6 +6,7 @@ function Button(props) {
   return (
     <div 
       className={`Button ${props.type}`}
+      disabled={props.disabled ? true : false}
       onClick={props.action 
         ? () => props.action
         : null
@@ -17,7 +18,7 @@ function Button(props) {
 }
 
 Button.propTypes = {
-  type: PropTypes.oneOf(['slide']).isRequired,
+  type: PropTypes.oneOf(['slide', 'disabled']).isRequired,
   text: PropTypes.string.isRequired,
   action: PropTypes.func
 }
