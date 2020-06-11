@@ -1,10 +1,28 @@
+// Fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+// Typography
+h1, h2, h3, h4, h5, h6,
+p, span {
+  font-family: 'Raleway', sans-serif;
+}
 
 // Colors
 $white: #FEFEFE;
 $black: #131313;
+$midGrey: #999;
 
 $primary: #7DC7F0;
 $secondary: #51F056;
 $warning: #FFCE55;
 $alert: #FF5E4B;
+
+$jsYellow: #ffd93b;
+$jsYellowDark: #dbb92c;
+
+// Default Styles
+@mixin padding {
+  padding: 0.5rem;
+  margin: 0;
+}

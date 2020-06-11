@@ -31,4 +31,32 @@
     border: 1px solid $primary;
     box-shadow: 0px 0.1rem 0.3rem rgba(0,0,0,0.5);
   }
+  &.disabled {
+    color: $midGrey;
+    border: 1px solid $midGrey;
+    background-image: -webkit-linear-gradient(30deg, $black 50%, transparent 50%);
+    background-image: linear-gradient(30deg, $black 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    cursor: not-allowed;
+  }
+  &.small {
+    font-size: 0.75rem;
+    &.slide {
+      background-size: 400px;
+    }
+  }
+  &.medium {
+    font-size: 1.25rem;
+    &.slide {
+      background-size: 700px;
+    }
+  }
+  &.large {
+    font-size: 2rem;
+    &.slide {
+      background-size: 900px;
+    }
+  }
 }

@@ -1,0 +1,56 @@
+@import 'theme/base.scss';
+
+.Hero {
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 560px;
+  overflow: hidden;
+  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+  background: url('../../assets/images/hero_background_compressed.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  .Hero-image img {
+    border-radius: 50%;
+    max-width: 128px;
+    max-height: 128px;
+    padding: 2rem;
+  }
+  .Hero-title {
+    font-size: 2rem;
+  }
+  .Hero-description {
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    @include padding;
+  }
+  .Hero-button {
+    margin-top: 3rem;
+  }
+  .js-one {
+    color: $jsYellow;  
+  }
+  .js-two {
+    color: $jsYellowDark;
+  }
+  .blue {
+    color: $primary;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .Hero {
+    .Hero-title {
+      font-size: 2.5rem;
+    }
+    .Hero-description {
+      font-size: 1.25rem;
+    }
+  }
+};
