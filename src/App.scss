@@ -4,6 +4,12 @@
   min-height: 100vh;
   min-width: 100vw;
   font-family: 'Open Sans', sans-serif;
+  background: #131313;
+  background-image: radial-gradient(
+    circle at bottom left,
+    #131313 25%, 
+    #333333 100%
+  );
   background: url('./assets/images/hero_background_compressed.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
