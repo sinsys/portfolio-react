@@ -1,11 +1,17 @@
 import React from 'react';
 import Button from 'components/elements/Button/Button';
+import ProfilePic from 'assets/images/profile_pic.jpg';
 import './Hero.scss';
 
 const Hero = (props) => {
   return (
     <div className="Hero">
-      <h1 className="Hero-title">Hello, I'm Nicholas</h1>
+      <div className="Hero-image">
+        <img src={ProfilePic} alt="Nicholas Hazel" />
+      </div>
+      <h1 className="Hero-title">Hello, I'm&nbsp;
+        <span className="color primary">Nicholas</span>
+      </h1>
       <p className="Hero-description">
         I develop&nbsp;
         <span className="color js-one">Java</span>
@@ -14,7 +20,7 @@ const Hero = (props) => {
       </p>
       <div className="Hero-button">
         <Button
-          size='large'
+          size='medium'
           type='slide'
           text="Who am I?"
         />

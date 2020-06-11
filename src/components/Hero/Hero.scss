@@ -25,6 +25,12 @@
     will-change: transform;
     z-index: -1;
   }
+  .Hero-image img {
+    border-radius: 50%;
+    max-width: 320px;
+    max-height: 320px;
+    padding: 2rem;
+  }
   .Hero-title {
     font-size: 2rem;
   }
@@ -42,6 +48,10 @@
   }
   .js-two {
     color: $jsYellowDark;
+  }
+  .primary {
+    color: $primary;
+    font-weight: bold;
   }
 }
 
