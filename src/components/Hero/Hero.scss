@@ -7,28 +7,17 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 560px;
   overflow: hidden;
   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
-
-  &::before {
-    background: url('../../assets/images/hero_background_compressed.jpg');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    content: '';
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    will-change: transform;
-    z-index: -1;
-  }
+  background: url('../../assets/images/hero_background_compressed.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   .Hero-image img {
     border-radius: 50%;
-    max-width: 320px;
-    max-height: 320px;
+    max-width: 128px;
+    max-height: 128px;
     padding: 2rem;
   }
   .Hero-title {
@@ -49,7 +38,7 @@
   .js-two {
     color: $jsYellowDark;
   }
-  .primary {
+  .blue {
     color: $primary;
     font-weight: bold;
   }

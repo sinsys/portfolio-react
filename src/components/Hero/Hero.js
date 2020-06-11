@@ -10,7 +10,7 @@ const Hero = (props) => {
         <img src={ProfilePic} alt="Nicholas Hazel" />
       </div>
       <h1 className="Hero-title">Hello, I'm&nbsp;
-        <span className="color primary">Nicholas</span>
+        <span className="color blue">Nicholas</span>
       </h1>
       <p className="Hero-description">
         I develop&nbsp;

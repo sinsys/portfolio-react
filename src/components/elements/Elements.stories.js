@@ -25,9 +25,9 @@ export const ButtonDisabled = () => (
 );
 
 ButtonSlide.story = {
-  name: 'Slide Button'
+  name: 'Button - Slide'
 };
 
 ButtonDisabled.story = {
-  name: 'Disabled Button'
+  name: 'Button - Disabled'
 }
