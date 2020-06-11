@@ -41,4 +41,22 @@
     background-position: 100%;
     cursor: not-allowed;
   }
+  &.small {
+    font-size: 0.75rem;
+    &.slide {
+      background-size: 400px;
+    }
+  }
+  &.medium {
+    font-size: 1.25rem;
+    &.slide {
+      background-size: 700px;
+    }
+  }
+  &.large {
+    font-size: 2rem;
+    &.slide {
+      background-size: 900px;
+    }
+  }
 }

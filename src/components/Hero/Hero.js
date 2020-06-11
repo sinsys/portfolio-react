@@ -14,6 +14,7 @@ const Hero = (props) => {
       </p>
       <div className="Hero-button">
         <Button
+          size='large'
           type='slide'
           text="Who am I?"
         />

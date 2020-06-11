@@ -10,7 +10,6 @@
   height: 100vh;
   overflow: hidden;
   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
-  
 
   &::before {
     background: url('../../assets/images/hero_background_compressed.jpg');
@@ -27,24 +26,32 @@
     z-index: -1;
   }
   .Hero-title {
-    font-size: 4vw;
+    font-size: 2rem;
   }
   .Hero-description {
     font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2vw;
+    font-size: 1rem;
     font-weight: bold;
     @include padding;
   }
   .Hero-button {
     margin-top: 3rem;
   }
-}
-
-.color {
-  &.js-one {
+  .js-one {
     color: $jsYellow;  
   }
-  &.js-two {
+  .js-two {
     color: $jsYellowDark;
   }
 }
+
+@media screen and (min-width: 410px) {
+  .Hero {
+    .Hero-title {
+      font-size: 2.5rem;
+    }
+    .Hero-description {
+      font-size: 1.25rem;
+    }
+  }
+};

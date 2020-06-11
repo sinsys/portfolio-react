@@ -5,7 +5,7 @@ import './Button.scss';
 function Button(props) {
   return (
     <div 
-      className={`Button ${props.type}`}
+      className={`Button ${props.type} ${props.size}`}
       disabled={props.disabled ? true : false}
       onClick={props.action 
         ? () => props.action
