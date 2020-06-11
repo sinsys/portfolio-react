@@ -4,8 +4,12 @@ import './App.scss';
 
 function App() {
   return (
+    
     <div className="App">
-      <Button text="Who am I?" />
+      <Button 
+        text="Who am I?" 
+        type="slide"
+      />
     </div>
   );
 }
